@@ -1,0 +1,50 @@
+body {
+    font-family: Bahnschrift, sans-serif;
+}
+
+.header {
+    font-size: 60px;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-holder {
+    text-align: center;
+}
+
+.card-name {
+    display: block;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.timer {
+    max-width: 800px;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.timer__card {
+    width: 100px;
+    height: 150px;
+    box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.5);
+    padding: 10px;
+    text-align: center;
+    border-radius:15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.timer__card span {
+    font-size: 40px;
+}
